@@ -1,0 +1,7 @@
+version: '3'
+services:
+  gpt-devops-api:
+    build: .
+    ports:
+      - "8000:8000"
+    container_name: gpt-devops-api
